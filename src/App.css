@@ -9,3 +9,7 @@ form {
   display: flex;
   flex-direction: column;
 }
+
+img {
+  margin-top: 1rem;
+}
