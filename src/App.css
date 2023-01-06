@@ -10,6 +10,6 @@ form {
   flex-direction: column;
 }
 
-img {
+img, select {
   margin-top: 1rem;
 }
