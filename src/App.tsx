@@ -1,6 +1,6 @@
 import { ChangeEvent, FormEvent, useState } from "react";
-import "./App.css";
 import { generateImage } from "./openai-service";
+import "./App.css";
 
 function App() {
 	const [prompt, setPrompt] = useState<string>("");
@@ -31,7 +31,7 @@ function App() {
 
 	return (
 		<div className="App">
-			<h1>Image Generator</h1>
+			<h1>Image Generator using OpenAI API</h1>
 			<form onSubmit={onSubmit}>
 				<textarea
 					id="prompt"
