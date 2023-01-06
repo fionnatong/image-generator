@@ -5,7 +5,7 @@
   text-align: center;
 }
 
-input {
-  height: 2rem;
-  font-size: medium;
+form {
+  display: flex;
+  flex-direction: column;
 }
